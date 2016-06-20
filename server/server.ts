@@ -1,6 +1,6 @@
 import * as express from 'express';
 
-const app = express();
+let app = express();
 
 // random comment!
 app.listen(3000, () => {
